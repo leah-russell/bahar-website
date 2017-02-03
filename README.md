@@ -1,5 +1,5 @@
 # Bahar Website Update
 
 ###Contributers
-*Leah Russell
-*Neha Abraham
+* Leah Russell
+* Neha Abraham
