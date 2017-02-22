@@ -1,0 +1,137 @@
+/*
+Bahar lab stylesheet
+Feb 2017
+by Leah Russell and Neha Abraham
+*/
+
+body{
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#wrapper{
+	background-color: #E9E7DB;
+}
+a:link {
+	color:#365F91;
+	text-decoration:underline;
+}
+a:hover {
+	
+}
+a:visited {
+	color: #551A99;
+}
+p{
+	
+}
+h4{
+	font-weight:500;
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+}
+.row{
+	overflow: hidden;	
+}
+
+/*HEADER IMAGE STYLES*/
+
+#img-left{
+	color: #e9e7db;
+	padding: 0px;
+	background-image: url("images/header_bg.jpg");
+	background-repeat:repeat-x;
+	background-position: 20% 0%;
+}
+
+#img-mid{
+	background-image: url("images/header_bg.jpg");
+	background-repeat:repeat-x;
+	padding: 0px;
+}
+
+#img-right{
+	background-color: #e9e7db;
+	padding: 0px;
+}
+
+/*NAVBAR STYLE*/
+
+
+/*INDEX PAGE STYLES*/
+#main-content{
+	background-color: #fff;
+	border-top-left-radius: 2em;
+}
+
+#title{
+	font-family: Helvetica,Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+#ivet-links{
+	padding-top: 20px;	
+}
+
+#research-interests{
+	padding-left: 20px;	
+}
+
+.ivet-img{
+	margin: 20px;	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Spotlight styles*/
+#student-spotlight{
+	background-color: #E8EAF9;
+	margin-bottom: -99999px;
+    padding-bottom: 99999px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.student-spotlight-header{
+	background-image: url("images/student_spot_bg.jpg");
+	background-repeat:repeat-x;
+}
+#recent-publications{
+	background-color: #E6F0EF;
+	height: 100%;
+	margin-bottom: -99999px;
+    padding-bottom: 99999px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.recent-publications-header{
+	background-image: url("images/recent_pub_bg.jpg");
+	background-repeat:repeat-x;
+}
+#research-progress{
+	background-color: #FAF7DC;
+	height: 100%;
+	margin-bottom: -99999px;
+    padding-bottom: 99999px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.research-progress-header{
+	background-image: url("images/upcoming_events_bg.jpg");
+	background-repeat:repeat-x;
+}
+p.spotlight{
+	font-size: 11px;
+	font-family: Tahoma, Verdana, sans-serif;
+	color: #333333;
+	text-align:left;
+	padding: 15px;
+}
+img.spotlight{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+p.more{
+	text-align:right;
+}
